@@ -45,6 +45,10 @@ collections:
     folder: 'content/gallery'
     create: true
     fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        hint: 'Provide a title for this gallery entry'
       - label: 'Images'
         name: 'images'
         widget: 'list'
